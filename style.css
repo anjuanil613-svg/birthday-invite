@@ -1193,8 +1193,8 @@ img {
   .section { padding: 70px 0; }
   .section-title { font-size: 1.8rem; }
 
-  .hero-moon { width: 180px; height: 180px; }
-  .baby-photo-frame { width: 110px; height: 110px; border-radius: 16px; overflow: hidden; }
+  .hero-moon { width: 300px; height: 220px; }
+  .baby-photo-frame { width: 260px; height: 200px; border-radius: 16px; overflow: hidden; }
   .baby-photo {
     mask-image: none;
     -webkit-mask-image: none;
@@ -1233,8 +1233,8 @@ img {
   .hero-subtitle { font-size: 1.1rem; }
   .hero-title { font-size: 1.6rem; }
   .number-one { font-size: 4rem; }
-  .hero-moon { width: 150px; height: 150px; }
-  .baby-photo-frame { width: 95px; height: 95px; border-radius: 16px; overflow: hidden; }
+  .hero-moon { width: 260px; height: 200px; }
+  .baby-photo-frame { width: 220px; height: 170px; border-radius: 16px; overflow: hidden; }
   .baby-photo {
     mask-image: none;
     -webkit-mask-image: none;
