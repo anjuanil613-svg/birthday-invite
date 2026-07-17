@@ -1194,7 +1194,11 @@ img {
   .section-title { font-size: 1.8rem; }
 
   .hero-moon { width: 180px; height: 180px; }
-  .baby-photo-frame { width: 110px; height: 110px; }
+  .baby-photo-frame { width: 110px; height: 110px; border-radius: 16px; overflow: hidden; }
+  .baby-photo {
+    mask-image: radial-gradient(ellipse 85% 85% at 50% 50%, black 70%, transparent 100%);
+    -webkit-mask-image: radial-gradient(ellipse 85% 85% at 50% 50%, black 70%, transparent 100%);
+  }
 
   .countdown-card { width: 100px; height: 110px; }
   .countdown-value { font-size: 2.4rem; }
@@ -1229,7 +1233,11 @@ img {
   .hero-title { font-size: 1.6rem; }
   .number-one { font-size: 4rem; }
   .hero-moon { width: 150px; height: 150px; }
-  .baby-photo-frame { width: 95px; height: 95px; }
+  .baby-photo-frame { width: 95px; height: 95px; border-radius: 16px; overflow: hidden; }
+  .baby-photo {
+    mask-image: radial-gradient(ellipse 85% 85% at 50% 50%, black 70%, transparent 100%);
+    -webkit-mask-image: radial-gradient(ellipse 85% 85% at 50% 50%, black 70%, transparent 100%);
+  }
 
   .countdown-grid { gap: 8px; }
   .countdown-card { width: 72px; height: 90px; padding: 12px; }
