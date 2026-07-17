@@ -480,7 +480,7 @@ function populateContent() {
   }
 
   // Page title
-  document.title = `${CONFIG.babyName} (${CONFIG.nickName}) Turns 1 — Moonlight Dreams`;
+  document.title = `${CONFIG.babyName}'s First Birthday`;
 
   // Footer copyright
   document.getElementById("footer-copyright").textContent =
